@@ -1,0 +1,89 @@
+ 
+ body 
+{ 
+ background-image: url(m.jpg) ; /* the main body atributes size of background and reduced marign to 0  */
+ background-size: 100% 100%;    
+ margin:0; 
+}
+
+     
+.but
+{                      /* the atributes for the atcual buttons in a class   */
+float:right;
+height: 15%;
+background-image: url(main.jpg) ;
+background-size:100% ; 
+}       
+       
+#vid
+{
+ text-align: center;        /* the atributes for the video as an id nested in mid   */
+ margin-bottom:0px;
+ margin-left:15% ;
+ margin-right:15% ;
+ border: 1px solid rgb(214, 152, 181);
+}  
+
+h1,h4
+{
+ color:rgb(9, 0, 0);              /* h1 nad h4 to be centered in the middle and black*/
+ text-align: center;
+} 
+
+   
+
+
+.tp
+ {                               /* the atributes for the header using a class main header div  */
+ display: flex;
+ flex-direction: column;height: 15%; 
+ justify-content:center;
+ align-items: center;
+ background-image: url(sky.jpg);
+ background-size: 100% 100%;
+ border: 1px solid black;
+           
+}
+
+.navbuttons
+ {       /* the buttons using a  class this is main div for but  and is nested in tp */
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: flex-end;
+}
+
+.mtitle
+ {                 /* the atributes for the title in header which isvnested in tp   */
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+}
+
+.mid  { margin-top: 50px;}   /* the parent div and atributes for both the video and txt    */
+
+
+#txt
+{                                              /* the atributes for the txt as an id nested in mid   */
+ border: 0px solid rgb(7, 7, 7);    
+ padding: 30px;
+ margin-right:15% ;
+ margin-left:15% ;
+}
+
+
+
+#footer 
+{                             /* the atributes for the footer    */
+ color:rgb(10, 8, 0);
+ border:1px solid rgb(7, 7, 7);
+ clear: both;
+ position: bottom;
+ background-image: url(sky.jpg);
+ background-size: 100% 100%;
+ text-align: center;
+        
+        
+             
+}    
